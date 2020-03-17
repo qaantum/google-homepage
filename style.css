@@ -1,3 +1,16 @@
-img{
+.logo-and-search-bar{
+    margin: auto;
+    margin-top: 30%;
+    width: 100%;
     display: block;
+    
+}
+.logo{
+    width: 40%;
+    align-self: center;
+    margin: auto;
+}
+.search-bar{
+    margin: auto;
+    width: 30%;
 }
