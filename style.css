@@ -1,16 +1,43 @@
 .logo-and-search-bar{
     margin: auto;
-    margin-top: 30%;
-    width: 100%;
+    margin-top: 300px;
+    top:50%;
+    left: 50%;
     display: block;
     
 }
 .logo{
     width: 40%;
-    align-self: center;
+    top:50%;
+    left: 50%;
     margin: auto;
+    
 }
 .search-bar{
     margin: auto;
     width: 30%;
+    top:50%;
+    left: 50%;
+}
+.search-button{
+    margin: auto;
+    top:50%;
+    left: 50%;
+    width: 20%;
+}
+li{
+    list-style: none;
+    text-decoration: none;
+}
+.nav-block{
+    margin-left: 600px;
+}
+#left-nav{
+    text-align: left;
+}
+#center-nav{
+    text-align: center;
+}
+#right-nav{
+    text-align: right;
 }
