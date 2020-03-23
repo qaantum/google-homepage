@@ -25,19 +25,29 @@
     left: 50%;
     width: 20%;
 }
-li{
+#header-li{
+    float: right;
+    display: block;
+    padding: 8px;
+}
+.navbar-header{
     list-style: none;
-    text-decoration: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
 }
-.nav-block{
-    margin-left: 600px;
+li a:hover {
+    background-color: #dddddd;
 }
-#left-nav{
-    text-align: left;
+.navbar-footer{
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
 }
-#center-nav{
-    text-align: center;
-}
-#right-nav{
-    text-align: right;
+#footer-li{
+    float: left;
+    display: block;
+    padding: 8px;
+    margin-top: 300px;
 }
